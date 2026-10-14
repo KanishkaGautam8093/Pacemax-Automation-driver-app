@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.pacemax.automation.shifts.TimeOff" time="59.349" tests="7" errors="0" skipped="2" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Softsensor\mobile-automation\pacemax-driver\target\test-classes;C:\Users\Softsensor\mobile-automation\pacemax-driver\target\classes;C:\Users\Softsensor\.m2\repository\io\appium\java-client\11.0.0\java-client-11.0.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\Softsensor\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Softsensor\.m2\repository\org\slf4j\slf4j-api\2.0.20\slf4j-api-2.0.20.jar;C:\Users\Softsensor\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Softsensor\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Softsensor\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Softsensor\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.3\junit-jupiter-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.3\junit-jupiter-api-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Softsensor\.m2\repository\org\junit\platform\junit-platform-commons\6.1.3\junit-platform-commons-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.3\junit-jupiter-params-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.3\junit-jupiter-engine-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\platform\junit-platform-engine\6.1.3\junit-platform-engine-6.1.3.jar"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Softsensor\AppData\Local\Temp\surefire7783102696210194827\surefirebooter-20261014120738951_3.jar C:\Users\Softsensor\AppData\Local\Temp\surefire7783102696210194827 2026-10-14T12-07-38_746-jvmRun1 surefire-20261014120738951_1tmp surefire_0-20261014120738951_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="TimeOff"/>
+    <property name="surefire.test.class.path" value="C:\Users\Softsensor\mobile-automation\pacemax-driver\target\test-classes;C:\Users\Softsensor\mobile-automation\pacemax-driver\target\classes;C:\Users\Softsensor\.m2\repository\io\appium\java-client\11.0.0\java-client-11.0.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\Softsensor\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Softsensor\.m2\repository\org\slf4j\slf4j-api\2.0.20\slf4j-api-2.0.20.jar;C:\Users\Softsensor\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Softsensor\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Softsensor\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Softsensor\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Softsensor\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\Softsensor\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\Softsensor\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Softsensor\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.3\junit-jupiter-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.3\junit-jupiter-api-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Softsensor\.m2\repository\org\junit\platform\junit-platform-commons\6.1.3\junit-platform-commons-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.3\junit-jupiter-params-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.3\junit-jupiter-engine-6.1.3.jar;C:\Users\Softsensor\.m2\repository\org\junit\platform\junit-platform-engine\6.1.3\junit-platform-engine-6.1.3.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Softsensor"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Softsensor\mobile-automation\pacemax-driver"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Softsensor\AppData\Local\Temp\surefire7783102696210194827\surefirebooter-20261014120738951_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20+8"/>
+    <property name="user.name" value="Softsensor"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.20+8"/>
+    <property name="localRepository" value="C:\Users\Softsensor\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\SOFTSE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.20"/>
+    <property name="user.dir" value="C:\Users\Softsensor\mobile-automation\pacemax-driver"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.12.8-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Softsensor\AppData\Local\Microsoft\WindowsApps;C:\Users\Softsensor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Softsensor\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin;C:\Users\Softsensor\AppData\Local\Android\Sdk\platform-tools;C:\Users\Softsensor\apache-maven-3.9.16\apache-maven-3.9.16\bin;;C:\Users\Softsensor\AppData\Roaming\npm;C:\Users\Softsensor\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\Softsensor\AppData\Local\Programs\Ollama;c:\Users\Softsensor\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.20+8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="readTimeOffRecordsTest" classname="com.pacemax.automation.shifts.TimeOff" time="7.113">
+    <system-out><![CDATA[Connecting to Appium server: http://127.0.0.1:4723
+Appium session started. Session id: 1167c4da-3d37-4abd-aeba-0965fc3e90ff
+Summary: 'You have 1 time off applied'
+Time off records (1):
+
+Time Off Record
+---------------
+Date: 09 Oct 2026 - 16 Oct 2026
+Duration: 8 days
+Status: Pending
+Applied On: Fri, 09 October 2026
+PASS: 1 record(s) read and the count matches the summary.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="timeOffCalendarOpensTest" classname="com.pacemax.automation.shifts.TimeOff" time="3.347">
+    <system-out><![CDATA[PASS: Time Off calendar opened on 'October 2026' (nothing selected).
+]]></system-out>
+  </testcase>
+  <testcase name="requestFormFieldsTest" classname="com.pacemax.automation.shifts.TimeOff" time="4.58">
+    <system-out><![CDATA[Duration options: [Full Day, Multiple Days]
+Date shown: 'Thu, 15 Oct 2026'
+Request Type options: [PTO, Others]
+PASS: Request Time Off form shows all fields; Apply is disabled.
+]]></system-out>
+  </testcase>
+  <testcase name="requestDatePickerTest" classname="com.pacemax.automation.shifts.TimeOff" time="12.034">
+    <system-out><![CDATA[Verified: Duration 'Multiple Days' is selected (and only it).
+PASS: 'Multiple Days' date picker shows 2026-10-18 (not selected).
+PASS: closing the picker kept the date 'Thu, 15 Oct 2026 - Fri, 16 Oct 2026'.
+]]></system-out>
+  </testcase>
+  <testcase name="fillRequestWithoutApplyTest" classname="com.pacemax.automation.shifts.TimeOff" time="26.078">
+    <system-out><![CDATA[Verified: Duration 'Multiple Days' is selected (and only it).
+Date range selected: 'Sun, 18 Oct 2026 - Fri, 23 Oct 2026'
+Verified: Request Type 'PTO' is selected (and only it).
+Apply enabled BEFORE entering the reason: true
+Reason entered.
+Verified: Duration 'Multiple Days' is selected (and only it).
+Verified: Request Type 'PTO' is selected (and only it).
+Verified: the form shows the configured values and Apply is enabled.
+PASS: form filled and Apply is enabled. Apply was NOT tapped.
+]]></system-out>
+  </testcase>
+  <testcase name="pastDateValidationTest" classname="com.pacemax.automation.shifts.TimeOff" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: SKIPPED: 'pastDate' is empty in test-data/shifts.json (timeOff section).
+	at com.pacemax.automation.shifts.TimeOff.getRequiredDate(TimeOff.java:1258)
+	at com.pacemax.automation.shifts.TimeOff.pastDateValidationTest(TimeOff.java:268)
+]]></skipped>
+  </testcase>
+  <testcase name="applyTimeOffRequestTest" classname="com.pacemax.automation.shifts.TimeOff" time="0.0">
+    <skipped message="System property [timeoff.submit.approved] does not exist ==&gt; Creates a REAL time off request on production - run only with -Dtimeoff.submit.approved=true"/>
+  </testcase>
+</testsuite>

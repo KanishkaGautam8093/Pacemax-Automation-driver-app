@@ -1,0 +1,3 @@
+com\pacemax\automation\App.class
+com\pacemax\automation\utils\DriverManager.class
+com\pacemax\automation\utils\ConfigReader.class

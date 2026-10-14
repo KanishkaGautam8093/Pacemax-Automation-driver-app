@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pacemax.automation.shifts.TimeOff
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 59.35 s -- in com.pacemax.automation.shifts.TimeOff

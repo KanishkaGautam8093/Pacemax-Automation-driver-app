@@ -1,0 +1,8 @@
+{
+  "targetChatName": "prodkanishka",
+  "messageText": "hey automated msg",
+  "chatsToPin": ["admin 2"],
+  "chatsToUnpin": ["admin 1"],
+  "filterCategories": ["Managers"],
+  "expectedMessage": ""
+}

@@ -1,0 +1,49 @@
+{
+  "inspection": {
+    "targetVehicleName": "vehicle 2",
+    "targetInspectionName": "multi test 3",
+    "expectedInspectionCount": null,
+
+    "questions": [{
+    "questionLabel": "Gas",
+    "type": "dropdown",
+    "response": "1/2"
+  },
+  {
+    "questionLabel": "Handtruck",
+    "type": "yesNo",
+    "response": "Yes"
+  },
+  {
+    "questionLabel": "Gas Card",
+    "type": "yesNo",
+    "response": "Yes"
+  },
+  {
+    "questionLabel": "Vehicle Clean",
+    "type": "yesNo",
+    "response": "No"
+  }],
+
+    "photo": {
+      "captureRequired": false,
+      "expectedAttachmentMessage": ""
+    },
+    "expectedValidationMessages": [],
+    "expectedSubmissionMessage": "",
+    "expectedStatusAfterSubmit": "In Progress"
+  },
+  "accidentReporting": {
+    "expectedDriverName": "proddriver one",
+    "targetVanName": "vehicle 1",
+    "accidentDate": "2026-10-13",
+    "accidentTime": "17:30",
+    "additionalFieldResponses": [],
+    "expectedValidationMessages": [],
+    "expectedSubmissionMessage": "",
+    "generalInformation": [],
+    "vehicleDamage": [],
+    "otherPartyInformation": [],
+    "additionalInformation": []
+  }
+}

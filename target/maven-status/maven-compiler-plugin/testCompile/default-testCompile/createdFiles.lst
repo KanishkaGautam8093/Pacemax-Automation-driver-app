@@ -1,0 +1,6 @@
+com\pacemax\automation\profile\Profile.class
+com\pacemax\automation\shifts\ShiftDetails.class
+com\pacemax\automation\dashboard\DashboardInspection.class
+com\pacemax\automation\dashboard\DashboardAccident.class
+com\pacemax\automation\chat\Chat.class
+com\pacemax\automation\shifts\TimeOff.class

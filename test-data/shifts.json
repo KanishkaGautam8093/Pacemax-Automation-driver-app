@@ -1,0 +1,28 @@
+{
+  "shiftDetails": {
+    "selectedStartDate": "",
+    "selectedEndDate": "",
+    "expectedShiftCount": null,
+    "expectedEmptyStateMessage": "",
+    "expectedValidationMessages": []
+  },
+  "timeOff": {
+    "selectedDate": "",
+    "request": {
+      "duration": "Multiple Days",
+      "requestDate": "18-10-2026 - 23-10-2026",
+      "requestType": "PTO",
+      "reason": "automation reason",
+      "startTime": "",
+      "endTime": ""
+    },
+    "invalidDate": {
+      "pastDate": "",
+      "blockedDate": "",
+      "expectedValidationMessage": ""
+    },
+    "expectedSubmissionMessage": "",
+    "expectedRequestStatus": "",
+    "expectedEmptyStateMessage": ""
+  }
+}
